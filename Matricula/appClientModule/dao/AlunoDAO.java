@@ -36,10 +36,11 @@ public class AlunoDAO {
             stmt.setBoolean(5, aluno.isAfrodescendente());
             stmt.setBoolean(6, aluno.isEscolaridadePublica());
             stmt.setString(7, aluno.getNacionalidade());
-            stmt.setString(11, aluno.getResponsavelLegal());
-            stmt.setBoolean(13, aluno.isHabilitacao());
-            stmt.setString(14, aluno.getSerieModulo());
-            stmt.setString(15, aluno.getPeriodo());
+            stmt.setString(8, aluno.getResponsavelLegal());
+            stmt.setBoolean(9, aluno.isHabilitacao());
+            stmt.setString(10, aluno.getSerieModulo());
+            stmt.setString(11, aluno.getPeriodo());
+            stmt.setString(12, aluno.getId());
 
             stmt.executeUpdate();
 
